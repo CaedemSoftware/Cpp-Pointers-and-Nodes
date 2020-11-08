@@ -18,7 +18,7 @@ bool LinkedBag<ItemType>::removeSecondNode340() {
 	remove(item);
 	return 0;
 	//Node<ItemType>* entryPtr = headPtr->getNext();//second node
-	//entryPtr.data = head.data;//remove second’s data
+	//entryPtr.data = head.data;//remove secondâ€™s data
 	//deletePtr = head;
 	//head = head.next;
 	//deletePtr.next = nullptr;
