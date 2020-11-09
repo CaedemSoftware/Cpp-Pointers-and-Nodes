@@ -58,67 +58,67 @@ int main() {
 	bag->addEnd340("0-ZERO");
 	displayBag(bag);
 
-	//// 4. getCurrentSize() - Iterative
-	//cout << "\n--->>>>> Test 4 --->>>>>";
-	//cout << "\n !getCurrentSize340Iterative - Iterative... ";
-	//cout << "\n  ---> Current size: " << bag->getCurrentSize340Iterative();
-	//displayBag(bag);
+	// 4. getCurrentSize() - Iterative
+	cout << "\n--->>>>> Test 4 --->>>>>";
+	cout << "\n !getCurrentSize340Iterative - Iterative... ";
+	cout << "\n  ---> Current size: " << bag->getCurrentSize340Iterative();
+	displayBag(bag);
 
-	//// 5. getCurrentSize() - Recursive
-	//cout << "\n--->>>>> Test 5 --->>>>>";
-	//cout << "\n !getCurrentSize340Recursive() - Recursive... ";
-	//cout << "\n  ---> Current size: " << bag->getCurrentSize340Recursive();
-	//displayBag(bag);
-	//	
-	//// 6. getCurrentSize() - Recursive w/ no helper function
-	//cout << "\n--->>>>> Test 6 --->>>>>";
-	//cout << "\n !getCurrentSize340RecursiveNoHelper() - Recursive... ";
-	//cout << "\n  ---> Current size: " << bag->getCurrentSize340RecursiveNoHelper();
-	//displayBag(bag);
-	//
-	//// 7. getFrequencyOf() - Recursive
-	//cout << "\n--->>>>> Test 7 --->>>>>";
+	// 5. getCurrentSize() - Recursive
+	cout << "\n--->>>>> Test 5 --->>>>>";
+	cout << "\n !getCurrentSize340Recursive() - Recursive... ";
+	cout << "\n  ---> Current size: " << bag->getCurrentSize340Recursive();
+	displayBag(bag);
+		
+	// 6. getCurrentSize() - Recursive w/ no helper function
+	cout << "\n--->>>>> Test 6 --->>>>>";
+	cout << "\n !getCurrentSize340RecursiveNoHelper() - Recursive... ";
+	cout << "\n  ---> Current size: " << bag->getCurrentSize340RecursiveNoHelper();
+	displayBag(bag);
+	
+	// 7. getFrequencyOf() - Recursive
+	cout << "\n--->>>>> Test 7 --->>>>>";
 
-	//cout << "\n !getFrequencyOf()... ";
-	//cout << "\n  ---> 0-ZERO:  " << bag->getFrequencyOf("0-ZERO");
-	//cout << "\n  ---> 1-ONE:   " << bag->getFrequencyOf("1-ONE");
-	//cout << "\n  ---> 2-TWO:   " << bag->getFrequencyOf("2-TWO");
-	//cout << "\n  ---> 4-FOUR:  " << bag->getFrequencyOf("4-FOUR");
-	//cout << "\n  ---> 9-NINE:  " << bag->getFrequencyOf("9-NINE");
-	//displayBag(bag);
+	cout << "\n !getFrequencyOf()... ";
+	cout << "\n  ---> 0-ZERO:  " << bag->getFrequencyOf("0-ZERO");
+	cout << "\n  ---> 1-ONE:   " << bag->getFrequencyOf("1-ONE");
+	cout << "\n  ---> 2-TWO:   " << bag->getFrequencyOf("2-TWO");
+	cout << "\n  ---> 4-FOUR:  " << bag->getFrequencyOf("4-FOUR");
+	cout << "\n  ---> 9-NINE:  " << bag->getFrequencyOf("9-NINE");
+	displayBag(bag);
 
-	//cout << "\n !getFrequencyOf340Recursive() - Recursive... ";
-	//cout << "\n  ---> 0-ZERO:  " << bag->getFrequencyOf340Recursive("0-ZERO");
-	//cout << "\n  ---> 1-ONE:   " << bag->getFrequencyOf340Recursive("1-ONE");
-	//cout << "\n  ---> 2-TWO:   " << bag->getFrequencyOf340Recursive("2-TWO");
-	//cout << "\n  ---> 4-FOUR:  " << bag->getFrequencyOf340Recursive("4-FOUR");
-	//cout << "\n  ---> 9-NINE:  " << bag->getFrequencyOf340Recursive("9-NINE");
-	//displayBag(bag);
+	cout << "\n !getFrequencyOf340Recursive() - Recursive... ";
+	cout << "\n  ---> 0-ZERO:  " << bag->getFrequencyOf340Recursive("0-ZERO");
+	cout << "\n  ---> 1-ONE:   " << bag->getFrequencyOf340Recursive("1-ONE");
+	cout << "\n  ---> 2-TWO:   " << bag->getFrequencyOf340Recursive("2-TWO");
+	cout << "\n  ---> 4-FOUR:  " << bag->getFrequencyOf340Recursive("4-FOUR");
+	cout << "\n  ---> 9-NINE:  " << bag->getFrequencyOf340Recursive("9-NINE");
+	displayBag(bag);
 
-	//// 8. getFrequencyOf() - Recursive w/ no helper fuction
-	//cout << "\n--->>>>> Test 8 --->>>>>";
-	//cout << "\n !getFrequencyOf340RecursiveNoHelper() - Recursive... ";
-	//cout << "\n  ---> 0-ZERO:  " << bag->getFrequencyOf340RecursiveNoHelper("0-ZERO");
-	//cout << "\n  ---> 1-ONE:   " << bag->getFrequencyOf340RecursiveNoHelper("1-ONE");
-	//cout << "\n  ---> 2-TWO:   " << bag->getFrequencyOf340RecursiveNoHelper("2-TWO");
-	//cout << "\n  ---> 4-FOUR:  " << bag->getFrequencyOf340RecursiveNoHelper("4-FOUR");
-	//cout << "\n  ---> 9-NINE:  " << bag->getFrequencyOf340RecursiveNoHelper("9-NINE");
-	//displayBag(bag);
+	// 8. getFrequencyOf() - Recursive w/ no helper fuction
+	cout << "\n--->>>>> Test 8 --->>>>>";
+	cout << "\n !getFrequencyOf340RecursiveNoHelper() - Recursive... ";
+	cout << "\n  ---> 0-ZERO:  " << bag->getFrequencyOf340RecursiveNoHelper("0-ZERO");
+	cout << "\n  ---> 1-ONE:   " << bag->getFrequencyOf340RecursiveNoHelper("1-ONE");
+	cout << "\n  ---> 2-TWO:   " << bag->getFrequencyOf340RecursiveNoHelper("2-TWO");
+	cout << "\n  ---> 4-FOUR:  " << bag->getFrequencyOf340RecursiveNoHelper("4-FOUR");
+	cout << "\n  ---> 9-NINE:  " << bag->getFrequencyOf340RecursiveNoHelper("9-NINE");
+	displayBag(bag);
 
-	//// 9. Remove a random node
-	//cout << "\n--->>>>> Test 9 --->>>>>";
-	//cout << "\n !removeRandom340() ---> " << bag->removeRandom340();
-	//cout << "\n !removeRandom340() ---> " << bag->removeRandom340();
-	//displayBag(bag);
-	//cout << "\n !removeRandom340() ---> " << bag->removeRandom340();
-	//cout << "\n !removeRandom340() ---> " << bag->removeRandom340();
-	//displayBag(bag);
-	//cout << "\n !removeRandom340() ---> " << bag->removeRandom340();
-	//cout << "\n !removeRandom340() ---> " << bag->removeRandom340();
-	//displayBag(bag);
-	//cout << "\n !removeRandom340() ---> " << bag->removeRandom340();
-	//cout << "\n !removeRandom340() ---> " << bag->removeRandom340();
-	//displayBag(bag);
+	// 9. Remove a random node
+	cout << "\n--->>>>> Test 9 --->>>>>";
+	cout << "\n !removeRandom340() ---> " << bag->removeRandom340();
+	cout << "\n !removeRandom340() ---> " << bag->removeRandom340();
+	displayBag(bag);
+	cout << "\n !removeRandom340() ---> " << bag->removeRandom340();
+	cout << "\n !removeRandom340() ---> " << bag->removeRandom340();
+	displayBag(bag);
+	cout << "\n !removeRandom340() ---> " << bag->removeRandom340();
+	cout << "\n !removeRandom340() ---> " << bag->removeRandom340();
+	displayBag(bag);
+	cout << "\n !removeRandom340() ---> " << bag->removeRandom340();
+	cout << "\n !removeRandom340() ---> " << bag->removeRandom340();
+	displayBag(bag);
 
 	cout << endl;
 	return 0;
