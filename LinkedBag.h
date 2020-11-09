@@ -1,7 +1,7 @@
 //  LinkedBag.h
-//  Created by Frank M. Carrano and Timothy M. Henry.
+//Â  Created by Frank M. Carrano and Timothy M. Henry.
 //  Updated by Duc Ta
-//  Copyright (c) 2017 Pearson Education, Hoboken, New Jersey.
+//Â  Copyright (c) 2017 Pearson Education, Hoboken, New Jersey.
 
 #pragma once
 #include "Node.cpp"
@@ -20,15 +20,15 @@ class LinkedBag : public BagInterface<ItemType> {
 public:
 	bool removeSecondNode340();
 	bool addEnd340(const ItemType&);
-	//	int getCurrentSize340Iterative() const;
-	//	int getCurrentSize340Recursive() const;
-	//	int getCurrentSize340RecursiveNoHelper() const;
-	//	int getFrequencyOf340Recursive(const ItemType&) const;
-	//	int getFrequencyOf340RecursiveNoHelper(const ItemType&) const;
-	//	ItemType removeRandom340();
-	//private:
-	//	int getCurrentSize340RecursiveHelper(Node<ItemType>*) const; // if needed
-	//	int getFrequencyOf340RecursiveHelper(Node<ItemType>*, const ItemType&) const; // if needed
+	int getCurrentSize340Iterative() const;
+	int getCurrentSize340Recursive() const;
+	int getCurrentSize340RecursiveNoHelper() const;
+	int getFrequencyOf340Recursive(const ItemType&) const;
+	int getFrequencyOf340RecursiveNoHelper(const ItemType&) const;
+	ItemType removeRandom340();
+	private:
+	int getCurrentSize340RecursiveHelper(Node<ItemType>*) const; // if needed
+	int getFrequencyOf340RecursiveHelper(Node<ItemType>*, const ItemType&) const; // if needed
 	/*----------------------------------------------------------------------*/
 
 public:
