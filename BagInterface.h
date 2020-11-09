@@ -1,7 +1,7 @@
 //  BagInterface.h
-//  Created by Frank M. Carrano and Timothy M. Henry.
+//Â  Created by Frank M. Carrano and Timothy M. Henry.
 //  Updated by Duc Ta
-//  Copyright (c) 2017 Pearson Education, Hoboken, New Jersey.
+//Â  Copyright (c) 2017 Pearson Education, Hoboken, New Jersey.
 
 #pragma once
 #include <vector>
@@ -19,26 +19,26 @@ public:
 	// Remove the second node
 	virtual bool removeSecondNode340() = 0;
 
-	//// Add a node to the end of the linked list
+	// Add a node to the end of the linked list
 	virtual bool addEnd340(const ItemType&) = 0;
 
-	//// getCurrentSize() - Iterative
-	//virtual int getCurrentSize340Iterative() const = 0;
+	// getCurrentSize() - Iterative
+	virtual int getCurrentSize340Iterative() const = 0;
 
-	//// getCurrentSize() - Recursive
-	//virtual int getCurrentSize340Recursive() const = 0;
+	// getCurrentSize() - Recursive
+	virtual int getCurrentSize340Recursive() const = 0;
 
-	//// getCurrentSize() - Recursive
-	//virtual int getCurrentSize340RecursiveNoHelper() const = 0;
+	// getCurrentSize() - Recursive
+	virtual int getCurrentSize340RecursiveNoHelper() const = 0;
 
-	//// getFrequencyOf340Recursive() - Recursive
-	//virtual int getFrequencyOf340Recursive(const ItemType&) const = 0;
+	// getFrequencyOf340Recursive() - Recursive
+	virtual int getFrequencyOf340Recursive(const ItemType&) const = 0;
 
-	//// getFrequencyOf340Recursive() - Recursive
-	//virtual int getFrequencyOf340RecursiveNoHelper(const ItemType&) const = 0;
+	// getFrequencyOf340Recursive() - Recursive
+	virtual int getFrequencyOf340RecursiveNoHelper(const ItemType&) const = 0;
 
-	//// Remove a random node
-	//virtual ItemType removeRandom340() = 0;
+	// Remove a random node
+	virtual ItemType removeRandom340() = 0;
 	/*--------------------------------------------------------------*/
 
 	// Gets the current number of entries in this bag.
