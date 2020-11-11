@@ -136,7 +136,7 @@ template <typename ItemType>
 ItemType LinkedBag<ItemType>::removeRandom340() {
 	ItemType itemRemoved;
 	int max = getCurrentSize();
-	srand(time(NULL));
+	srand(static_cast<int>(time(NULL)));
 	int deleteIndex = rand() % max;
 	Node<ItemType>* iteratePtr = headPtr;
 	while (deleteIndex != 0) {
